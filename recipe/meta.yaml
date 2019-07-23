@@ -1,5 +1,5 @@
 {% set name = "root_pandas" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/scikit-hep/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 9d6ef92a7fb58a435a9a19c09feff8f9cb530e65abf06054ce62627b871bd57e
+  sha256: 99dff03301048a7d59729a9c913cc2e88c387c6784f761a854f07ae3cddf382a
 
 build:
   number: 0
